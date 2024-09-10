@@ -1,20 +1,21 @@
 # check if the Number is prime
 
-# Upper limit for prime numbers
-limit = 10
+# Input number
+num = int(input("Enter a number: "))
 
-# Iterate through each number from 2 to limit
-for num in range(2, limit + 1):
-    is_prime = True  # Assume the number is prime
-    
-    # Check divisibility from 2 up to num-1
-    for i in range(2, num):
-        if num % i == 0:
-            is_prime = False  # Not a prime number
-            break
-    
-    # Print the number if it is prime
-    if is_prime:
-        print(num)
+# Step 1: Calculate factorial of the number manually
+fact = 1
+for i in range(1, num + 1):
+    fact *= i
 
+# Step 2: Create a list of factors of the factorial
+factors = []
+for i in range(1, num + 1):
+    if fact % i == 0:
+        factors.append(i)
 
+# Step 3: Check if the number is prime
+if factors == [1, num]:
+    print(f"Yes, {num} is a prime number!")
+else:
+    print(f"Sorry, {num} is not a prime number.")
