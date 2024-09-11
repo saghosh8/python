@@ -1,4 +1,4 @@
-# 2. Write a program with  function to find Sum of Two Numbers
+# 2. Write a program with  function to find Sum of Two Numbers with no arguments passed
 
 def sum():
     a = 10
