@@ -3,4 +3,5 @@
 def print_message():
     print("This is a program with no arguments passed in function")
     return
+
 print_message()
