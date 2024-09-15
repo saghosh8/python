@@ -1,5 +1,15 @@
 Here is theList of Que for Python Functions program:
 
 1. Write a program with no arguments passed in function
+
 2. Write a program with  function to find Sum of Two Numbers with no arguments passed
+
 3. Write a program with  function to find Sum of Two Numbers with arguments passed
+
+4. Write a short Python function, is multiple(n, m), that takes two integer
+values and returns True if n is a multiple of m, that is, n = mi for some
+integer i, and False otherwise.
+
+5.Write a short Python function, is even(k), that takes an integer value and
+returns True if k is even, and False otherwise. However, your function
+cannot use the multiplication, modulo, or division operators.
