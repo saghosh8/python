@@ -18,3 +18,9 @@ cannot use the multiplication, modulo, or division operators.
 one or more numbers, and returns the smallest and largest numbers, in the
 form of a tuple of length two. Do not use the built-in functions min or
 max in implementing your solution.
+
+7. Write a short Python function that takes a positive integer n and returns
+the sum of the squares of all the positive integers smaller than n.
+
+8. Give a single command that computes the sum from Question 7, 
+relying on Python’s comprehension syntax and the built-in sum function.
