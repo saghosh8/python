@@ -1,4 +1,4 @@
-Here is theList of Que for Python Functions program:
+Here is the List of Que for Python Functions program:
 
 1. Write a program with no arguments passed in function
 
