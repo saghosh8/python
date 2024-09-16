@@ -19,7 +19,8 @@ if __name__ == '__main__':
     
     # Get the frequency of elements in A
     frequency = find_frequency(A)
-    
+    print(frequency)
+
     # Output the frequency of each element
     print("Element Frequency:")
     for element, count in frequency.items():
