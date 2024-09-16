@@ -6,4 +6,5 @@ Here is the List of Que for Python array program:
 
 3. Write a program to remove the array element present immidiately to the right of the element entered by the user
 
-4. Write a program to find the max frequency of the element in Array A and then delete it
+4. Write a program to remove the array element with max freq
+
