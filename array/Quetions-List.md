@@ -20,5 +20,5 @@ Here's a list of Data Structures and Algorithms (DSA) problems:
 
 6. Sort Array in increasing Order of their frequency
 
-
+7. List of all Prime Numbers till 100
 
