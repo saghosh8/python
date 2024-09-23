@@ -16,3 +16,9 @@ Here's a list of Data Structures and Algorithms (DSA) problems:
    - Problem: Remove the element with MAX Frequency
    - WithOut pop
 
+5. Remove all the occurence of duplicate array
+
+6. Sort Array in increasing Order of their frequency
+
+
+
