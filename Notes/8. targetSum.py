@@ -5,12 +5,15 @@ def targetSum(array, target):
     pairs = []
 
     while left < right:
-        if  array[left] + array[right] == target:
-            pairs = [array[left] , array[right]]
+        current_sum = array[left] + array[right]
+        if  current_sum == target:
+            #pairs = left , right
+            pairs.append((array[left], array[right]))
+            
             left +=1
             right -=1
 
-        elif array[left] + array[right] < target:
+        elif current_sum < target:
             left +=1
        
         else:
