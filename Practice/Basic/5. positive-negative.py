@@ -1,13 +1,16 @@
-# Check the Number is Positive Or Negative
-
+#Define a Function to check if a Number is Positive or Negative or Zero
 def Positive_Negative_Number(number):
-    if number>0:
-        print(f"{number} is a Posive Number.")
-    elif number<0:
-        print(f"{number} is a Negative Number.")
+    #Check if the number is greater than zero
+    if number > 0:
+        print(f"{number} is a positive number.")
+    #Check if the number is less than zero
+    elif number < 0:
+        print(f"{number} is a negative number.")
     else:
-        print(f"The Number : {number} is Zero.")
+        print(f"{number} is a Zero")
 
-number = int(input("Enter the Number: "))
+#Take User Input
+number = int(input("Enter the Number:"))
+
+#call the function
 Positive_Negative_Number(number)
-

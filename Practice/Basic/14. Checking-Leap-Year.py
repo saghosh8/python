@@ -1,9 +1,9 @@
 # A leap year is a year that is either:
 
-# Divisible by 4, and not divisible by 100, or
-# Divisible by 400.
+# 1. Divisible by 4, and not divisible by 100, or
+# 2.Divisible by 400.
 
-year = int(input('Enter the Number to find Factorial: '))
+year = int(input('Enter the Year: '))
 
 if year % 4 ==0 and year % 100 != 0 or year % 400 == 0:
     print(f'{year} is a leap year')

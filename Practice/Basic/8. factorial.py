@@ -1,5 +1,4 @@
 # Factorial Number
-
 number=int(input('Enter the Number to find Factorial: '))
 fact=1
 i=1
